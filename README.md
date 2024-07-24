@@ -367,7 +367,7 @@ The steps are:
 * Install Docker CE on the radius (NRS) server.  Please follow our [Docker setup instructions](Docker-setup.md).
 * Check out this repository (same as when deploying the ancillary service as per above) - and go to the `filebeat-radsecproxy` directory:
 
-        git clone https://github.com/REANNZ/etcbd-public.git
+        git clone https://github.com/LEARN-LK/etcbd-public.git
         cd etcbd-public/filebeat-radsecproxy/
 
 * Modify the `filebeat-radsecproxy.env` file with deployment parameters:
