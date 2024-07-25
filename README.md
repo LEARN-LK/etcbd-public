@@ -271,6 +271,23 @@ trigger an immediate reload, either restart the container, or send it the
 
     docker kill --signal HUP icinga
 
+NOTE:
+
+To add the details to admin tools, you have to submit following details about your eduroam service to LEARN TAC.
+
+1. Address of the institute
+2. Contact details of the administrator : Name, Email, Contact number
+3. Institutional Details:
+    - Institute Name
+    - URLs for info and policy of the institute
+    - Latitude and longitude of the institute
+      
+4. Realm which is used in the eduroam service
+5. Server(IRS) IP and secret
+6. Credentials for Test user account
+
+   After sending the details to LEARN TAC, institute details will be added to eduroam admin tool and monitored through Icinga.
+
 ## Installing proper SSL certificates for Monitoring tools
 
 We also recommend operating the Monitoring tools with proper SSL certificates.
